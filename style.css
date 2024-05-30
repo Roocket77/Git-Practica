@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+/* --------Nav--------------*/
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #026646;
+}
+.contenedor-header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    padding: 10px;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.navegacionPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-right: 25px;
+    
+}
+.navegacionPrincipal a{
+    color: #fff;
+    font-size: 35px;
+    padding: 15px 10px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+    
+}
+.navegacionPrincipal a:hover{
+    color: #fcff30;
+    transition: all 1s;
+}
+
+
+
+/*----------Formulario-----------*/
+
+.contenedor-formulario{
+    width: 95%;
+    max-width: 100rem;
+    margin: 0 auto;
+    margin-top: 175px;
+
+    
+    
+}
+.formulario{
+    margin: 0 auto;
+    width: 550px;
+}
+h2{
+
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+label{
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 8px; */
+    margin: 15px 0 ;
+    color: rgb(0, 187, 84);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgb(0, 199, 149);
+}
+input{
+    padding: 25px 15px;
+    font-size: 20px;
+    background-color: #ddd;
+    border: 3px solid rgb(17, 169, 0);
+    border-radius: 5px;
+     width: 400px; 
+    box-shadow: 0 0 20px rgb(0, 156, 117);
+}
+textarea{
+    padding: 25px 15px;
+    font-size: 20px;
+    background-color: #ddd;
+    border: 3px solid rgb(17, 169, 0);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(0, 156, 117);
+    margin-bottom: 30px;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #00d87b;
+    border: 3px solid rgb(17, 169, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 156, 117);
+}
+button:hover{
+    background-color: #138353;
+}
+
+footer{
+    margin-top: 200px;
+    padding: 50px 25px;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    background-color: #026646;
+    text-align: center;
+}
